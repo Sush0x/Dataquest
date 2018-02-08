@@ -1,0 +1,27 @@
+*Python is an object oriented language - everything as an object
+
+Eg.- count = 8 // class -> Integer , Internal Data -> 8
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+*List - Also a class 
+append -  Method of the class 
+
+*Abstraction - Reusability of attributes (Function + Variables) of a class 
+List1 = list[1,2,3]
+List1.append(4)
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+*Defining the dataset class
+
+class Dataset:
+   def __init__(self):
+      self.type = 'csv'
+      
+new_dataset = Dataset() //object of the class
+print(new_dataset.type)
+>'csv'
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+
+
