@@ -1,0 +1,51 @@
+* Module - Function + Variables bundled together
+
+* We can organize code + Provide functionality
+
+----------------------------------------------------------------------------------------------------------------------------------------
+* In python we import a module by and We use function as - -
+
+import module
+module.func()
+
+Eg - import math
+math.sqrt(25)
+>5
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+*Importing modules as alias
+
+Eg - import pandas as pd
+
+* Importing specific object from a module
+
+Eg - from math import *
+s1 = sqrt(100)
+>10
+
+----------------------------------------------------------------------------------------------------------------------------------------
+* CSV Module
+
+import csv
+f= open('data.csv','r')
+csv_reader = csv.reader(f)
+data = list(csv_reader)
+
+----------------------------------------------------------------------------------------------------------------------------------------
+Eg. - Write a progran to count the win in the nfl data
+
+import csv
+f= open('nfl.csv','r')
+nfl_data = list(csv.reader(f))
+
+def win(team):
+   count = 0
+   for row in nfl_data:
+        if row[2]==team:
+            count= count + 1
+   return count  
+   
+cow_boys_win = win("Dallas Cowboys")
+falcons_win = win("Falcons Escorts")
+
