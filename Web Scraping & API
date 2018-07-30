@@ -1,1 +1,11 @@
+Extracting information from Websites - we prefer API to access their data in a more structured manner.
+focuses on the transformation of unstructured data (HTML format) on the web into structured data (database or spreadsheet).
+
+Eg. - last week we were thinking of creating an index of hotness and sentiment about various data science courses available on internet. 
+This would not only require finding out new courses, but also scrape the web for their reviews and then summarizing them in a few metrics.
+
+
+If you can get what you need through an API, it is almost always preferred approach over web scrapping. 
+This is because if you are getting access to structured data from the provider, 
+why would you want to create an engine to extract the same information.
 
